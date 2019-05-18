@@ -1,0 +1,9 @@
+a) Implement an abstract class called Item to do the following. 
+ 
+i)  It should store the following properties itemNo, description, unitPrice ii) Implement a constructor to get the three properties as parameters and initialize them. iii) Implement a Display() method which displays the three properties. Marks 5 b) Implement a sub class called Book that extends the Item abstract class. 
+ 
+i) Add the following properties publisher, category, pages ii) Implement a constructor to get all the six properties of this class as parameters and initialize them. iii) Override the Display() method to display details of all the properties. Marks 5 c) Implement a sub class called Car that extends the Item abstract class. 
+ 
+i) Add the following properties model, type ii) Implement a constructor to get all the five properties of this class as parameters and initialize them. iii) Override the Display() method to display details of all the properties. Marks 5 d) Implement a class called MainApp that contains the main() function. 
+ 
+i) Create an ArrayList of the Item class.  Use generics so that only the Item and its descendent classes can be stored in the ArrayList. ii) Create two Book type objects and store them in the ArrayList. iii) Create two Car type objects and store them in the ArrayList. iv) Using a for each loop call the Display() method of the books and cars stored in the ArrayList  
